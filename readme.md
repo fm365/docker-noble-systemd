@@ -1,3 +1,4 @@
+```
 # 使用Ubuntu 24.04.1 基础镜像
 FROM fm365/ubuntu-24.04.1:v3
 
@@ -44,3 +45,4 @@ WORKDIR /root
 #CMD ["/start.sh"]
 CMD ["/sbin/init"]
 #CMD [ "/lib/systemd/systemd", "log-level=info", "unit=sysinit.target" ]
+```
